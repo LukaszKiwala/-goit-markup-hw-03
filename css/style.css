@@ -6,11 +6,18 @@
   --color-grey2: #2f303a;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   margin: 0px;
   padding: 0px;
-  color: var(--color-black)
+  color: var(--color-black);
+  width: 1600px
 }
 
 /*logo*/
@@ -24,6 +31,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--hover-color);
+  margin-right: 93px;
 }
 
 .studio {
