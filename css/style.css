@@ -28,10 +28,21 @@ ul {
 h1 {
   margin: 0;
 }
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
 
 .container {
   width: 1200px;
   margin: auto;
+  padding: 0 15px;
+}
+
+.border-line-portfolio {
+  border: 1px solid var(--color-of-border);
 }
 
 .section {
@@ -389,8 +400,6 @@ h1 {
 }
 
 .list-item-section-5 {
-  border: 1px solid var(--color-of-border);
-
   flex-basis: calc((100% - 60px) / 3);
 }
 
