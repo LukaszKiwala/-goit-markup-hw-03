@@ -58,9 +58,10 @@ header {
   height: 80px;
 }
 
-.header {
+.header-content {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .logo-link {
@@ -88,6 +89,10 @@ header {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
 }
 
 .list-style-nav-list {
@@ -130,7 +135,6 @@ header {
 }
 
 .list-style-nav-2-list {
-  margin-left: 371px;
   display: flex;
   gap: 50px;
 }
@@ -405,6 +409,9 @@ header {
 
 .list-item-section-5 {
   flex-basis: calc((100% - 60px) / 3);
+}
+.list-item-section-5 img {
+  display: block;
 }
 
 .section-5-h4 {
